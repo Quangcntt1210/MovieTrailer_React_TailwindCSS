@@ -8,7 +8,7 @@ function Header({ onSearch }) {
       <div className="flex items-center space-x-4">
         <h1 className="text-[28px] uppercase font-bold text-red-700">Movie Theater</h1>
         <nav className="flex place-items-center space-x-10">
-          <a href="#" className="text-white hover:text-red-700">Home</a>
+          <a href='./App.jsx' className="text-white hover:text-red-700">Home</a>
           <a href="#" className="text-white hover:text-red-700">About</a>
           <a href="#" className="text-white hover:text-red-700">Contact</a>
         </nav>
