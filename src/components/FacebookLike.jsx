@@ -9,7 +9,7 @@ const FacebookLike = ({ url }) => {
         <div
             className="fb-like"
             data-href={url}
-            data-layout="button_count"
+            data-layout="button"
             data-action="like"
             data-size="small"
             data-share="false"
