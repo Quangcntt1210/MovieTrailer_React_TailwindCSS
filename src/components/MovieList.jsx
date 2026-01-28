@@ -30,7 +30,7 @@ const responsive = {
 };
 
 export const MovieList = ({ title, data }) => {
-    const{handleTrailer}=useContext(MovieContext);
+    const { handleTrailer } = useContext(MovieContext);
     return (
         <div className='text-white p-10 mb-10'>
 
@@ -49,7 +49,7 @@ export const MovieList = ({ title, data }) => {
                     <div key={item.id}
                         className='w-[200px] h-[300px] relative group' onClick={() => {
                             handleTrailer(item.id);
-                           
+
                         }}>
                         <div className='w-full h-full group-hover:scale-105 transition-transform duration-500 ease-in-out cursor-pointer'>
                             <div className='absolute top-0 h-full left-0 w-full bg-black/30' />
@@ -63,7 +63,7 @@ export const MovieList = ({ title, data }) => {
                     </div>
                 ))}
             </Carousel>
-       
+
         </div>
 
     )
